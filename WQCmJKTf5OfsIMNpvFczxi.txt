@@ -1,0 +1,1 @@
+{"critvals":{"Q4XIukVVk0fixzVY89NHKh":{"value":"Réutilisable","desc":""},"B15IO4RwERk2NFm1ap62Me":{"value":"Modifiable","desc":""},"NXDtejnpD0hGG2ikDcPmbh":{"value":"Non réutilisable","desc":""},"Q5sgs3yqBVzqYp1N447Pg":{"value":"Non modifiable","desc":""}}}

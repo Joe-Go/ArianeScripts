@@ -1,0 +1,1 @@
+{"critvals":{"kU56UFSjJKgomDGE9e2hgg":{"value":"TEI","desc":""},"tv1ozfM9ogdmTikYTvCHq":{"value":"JSON","desc":""},"oaUtLvoHNcb8dyHqqPSFjf":{"value":"ODT","desc":""},"TqqJ8P7RW5f84KBUICNzhg":{"value":"HTML","desc":""},"KwDV2ZgHsOfwRJS7IyJHU":{"value":"CSV","desc":""},"GT5fB3Pd6YgxuYztjvqPpj":{"value":"Dublin Core","desc":""}}}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>Ariane Scripts</title>
+  <meta charset="UTF-8" ></meta>
+  <meta name="generator" content="SCENARI 5.0.100 / IDKey 1.0.018" ></meta>
+  <meta name="revision" content="2023-09-20 09:48" ></meta>
+  <link rel="start" href="index.html" title="Ariane Scripts" ></link>
+  <meta name="viewport" content="width=device-width, initial-scale=1" ></meta>
+  <link rel="stylesheet" type="text/css" href="lib-md/w_tePlayer/tePlayer.css" ></link>
+  <script type="text/JavaScript">/*<![CDATA[*/
+/*0*/ var scServices = {id:"lmrk9yqv"};
+/*1*/ window.scLoadParams = {destUri:"/index.html", pathToRoot:""};
+/*]]>*/</script>
+  <script type="text/JavaScript" src="lib-sc/scCoLib.js" ></script>
+  <script type="text/JavaScript" src="lib-md/w_teMgr/teMgr.js" ></script>
+  <script type="text/JavaScript" src="lib-md/w_teMgr/teSubControllers.js" ></script>
+  <script type="text/JavaScript" src="lib-sc/scTiLib.js" ></script>
+  <script type="text/JavaScript" src="lib-sc/scSiLib.js" ></script>
+  <script type="text/JavaScript" src="lib-sc/scPaLib.js" ></script>
+  <script type="text/JavaScript" src="lib-sc/scDynUiMgr.js" ></script>
+  <script type="text/JavaScript" src="lib-sc/scTooltipMgr.js" ></script>
+  <script type="text/JavaScript" src="lib-md/w_tePlayer/TESettingsFromTracks.js" ></script>
+  <script type="text/JavaScript" src="lib-md/w_mediaelement/mediaelement.min.js" ></script>
+  <script type="text/JavaScript" src="lib-md/w_tePlayer/tePlayer.js" ></script>
+  <script type="text/JavaScript" src="lib-md/w_scImageMgr/scImageMgr.js" ></script>
+  <script type="text/JavaScript" src="lib-md/w_teMgr/fullscreen-api-polyfill.min.js" ></script>
+  <script type="text/JavaScript" src="lib-md/w_teMgr/vtt.min.js" ></script>
+  <script type="text/JavaScript" src="lib-md/w_idKeyMgr/idKeyMgr.js" ></script>
+  <script type="text/JavaScript">/*<![CDATA[*/
+// Path vers node le plus bas des pages web générées (footer par exemple)
+//scImageMgr.setPathPgeFra("xxxx");
+
+scImageMgr.registerGallery("des:div.galFra");
+
+scImageMgr.registerZoom("des:a.overLnk",{toolbar:1,mag:1,titlePath:"par:/nsi:/des:span.capTi"});
+
+tePlayerMgr.init();
+/*]]>*/</script>
+  <link rel="icon" type="image/png" href="defaultIcons/icon192.png" ></link>
+  <link rel="apple-touch-icon" href="defaultIcons/icon192.png" ></link>
+  <meta name="theme-color" content="#FFFFFF" ></meta>
+  <link rel="manifest" href="manifest.json" ></link>
+  <script type="text/JavaScript">/*<![CDATA[*/if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').then(reg => {
+      reg.addEventListener('updatefound', () => {
+        const newWorker = reg.installing ;
+        newWorker.addEventListener('statechange', function() {
+          if (newWorker.state === "installed" &&   navigator.serviceWorker.controller) idKeyApp.onUpdateAvailable(newWorker);
+        });
+      });
+    });
+  }
+else {
+    console.warn('Le navigateur ne prend pas en charge les services workers');
+}/*]]>*/</script>
+  <meta itemprop="taxonNbr" content="9" ></meta>
+  <link type="text/css" rel="stylesheet" href="skin/skin.css" ></link>
+  <div class="galFra" style="position: relative;" data-mode=""><div class="galClr" ></div><noscript><em class="noscript">Cette animation utilise Javascript pour un affichage optimal.</em></noscript></div></head>
+ <body class="home">
+  <div id="root"><header id="header" role="banner"><h1><span>Ariane Scripts</span></h1><div id="mobileZone" ></div></header><nav id="navMenu"><ul><li><button class="outBtn selected keys" data-tab="keys" title="Parcourir les critères"><span>Trouver mon taxon</span></button></li><li><button class="outBtn rightDesktopPanel" data-tab="rightDesktopPanel" title="Parcourir les taxons sélectionnés"><span>Sélection</span><span id="taxoCount" ></span></button></li></ul><div><input type="file" id="addMyPhotoInput" class="addPhoto desktop" title="Ajouter ma photo" accept="image/*" ></input><label for="addMyPhotoInput" title="Ajouter ma photo"><span>Ajouter ma photo</span></label></div></nav><button class="openNavMenu" title="Menu"><span>Menu</span></button><main id="main" role="main"><div id="keys" class="tab selected"><span>Chargement en cours...</span></div><div id="rightDesktopPanel" class="tab"><div id="taxlist" ></div></div><script>/*<![CDATA[*/idKeyMgr.setDatasUrl("datas.txt");/*]]>*/</script></main><footer id="footer" role="contentinfo"><hr class="hidden" ></hr><div class="tplFootBanner"><a class="generatorLink " target="_blank" href="https://doc.scenari.software/IDKey" title="Réalisé avec SCENARI (nouvelle fenêtre)"><span><img alt="Réalisé avec SCENARI" src="skin/img/scBtn.png" ></img></span></a></div></footer></div>
+  <script type="text/JavaScript" src="skin/js/skin.js" ></script>
+  <script type="text/javascript">/*<![CDATA[*/scImageMgr.init();/*]]>*/</script></body></html>
