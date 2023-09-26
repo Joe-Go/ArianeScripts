@@ -1,0 +1,7 @@
+pages:
+  script:
+    - npm run build
+  artifacts:
+    paths:
+      - site
+  publish: site
